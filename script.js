@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Typing effect for hero section
   const textElement = document.getElementById('typing-text');
-  const texts = ['Master Your Tasks with NotesApp', 'Stay Organized, Stay Ahead', 'Your Productivity Partner'];
+  const texts = ['Master Your Tasks with Note-S Flow', 'Stay Organized, Stay Ahead', 'Your Productivity Partner'];
   let textIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
