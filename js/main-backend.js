@@ -98,7 +98,7 @@ window.handleSignUp = async function (event) {
     await sendEmailVerification(user);
     localStorage.setItem("loggedInUserId", user.uid);
     showMessage("Account created! Please verify your email to continue.", "signUpMessage", false);
-    setTimeout(() => location.replace("/html/verify-email.html"), 2000);
+    setTimeout(() => location.replace("https://quizleapsbooks.github.io/ToDoList-Web/html/verify-email.html"), 2000);
   } catch (error) {
     console.error(error);
     const errorMessage = error.code === "auth/email-already-in-use"
@@ -133,7 +133,7 @@ window.handleLogin = async function (event) {
     }
     localStorage.setItem("loggedInUserId", user.uid);
     showMessage("Logged in successfully!", "signInMessage", false);
-    setTimeout(() => location.replace("/html/dashboard.html"), 2000);
+    setTimeout(() => location.replace("https://quizleapsbooks.github.io/ToDoList-Web/html/dashboard.html"), 2000);
   } catch (error) {
     console.error(error);
     showMessage("Login failed. Email or password is incorrect.", "signInMessage");

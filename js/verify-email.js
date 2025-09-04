@@ -29,7 +29,7 @@ window.checkVerification = async () => {
     await user.reload(); // Refresh user data
     if (user.emailVerified) {
       showMessage("Email verified! Redirecting to dashboard...", false);
-      setTimeout(() => location.replace("/htmls/dashboard.html"), 2000);
+      setTimeout(() => location.replace("https://quizleapsbooks.github.io/ToDoList-Web/htmls/dashboard.html"), 2000);
     } else {
       showMessage("Email not verified yet. Please check your inbox or resend the email.");
     }
@@ -56,6 +56,6 @@ window.resendVerification = async () => {
 onAuthStateChanged(auth, (user) => {
   if (user && user.emailVerified) {
     showMessage("Email already verified! Redirecting to dashboard...", false);
-    setTimeout(() => location.replace("/htmls/dashboard.html"), 2000);
+    setTimeout(() => location.replace("https://quizleapsbooks.github.io/ToDoList-Web/htmls/dashboard.html"), 2000);
   }
 });
