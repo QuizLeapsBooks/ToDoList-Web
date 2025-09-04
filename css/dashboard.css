@@ -1,0 +1,124 @@
+/* Dark Theme */
+.dark-theme {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+.dark-theme .bg-white {
+  background-color: #2d3748;
+}
+
+.dark-theme .text-gray-600 {
+  color: #a0aec0;
+}
+
+.dark-theme .text-gray-700 {
+  color: #cbd5e0;
+}
+
+.dark-theme .bg-gray-100 {
+  background-color: #4a5568;
+}
+
+.dark-theme .text-blue-600 {
+  color: #63b3ed;
+}
+
+.dark-theme .bg-blue-600 {
+  background-color: #2b6cb0;
+}
+
+.dark-theme .bg-blue-600:hover {
+  background-color: #2c5282;
+}
+
+.dark-theme .bg-green-600 {
+  background-color: #2f855a;
+}
+
+.dark-theme .bg-green-600:hover {
+  background-color: #276749;
+}
+
+.dark-theme .text-red-600 {
+  color: #f56565;
+}
+
+.note-card {
+  transition: transform 0.2s;
+}
+
+.note-card:hover {
+  transform: scale(1.02);
+}
+
+.task-card {
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.dark-theme .task-card {
+  background-color: #2d3748;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}
+
+.category-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.category-tag.personal {
+  background-color: #bee3f8;
+}
+
+.category-tag.work {
+  background-color: #fefcbf;
+}
+
+.category-tag.study {
+  background-color: #fed7e2;
+}
+
+.priority-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.priority-badge.low {
+  background-color: #68d391;
+}
+
+.priority-badge.medium {
+  background-color: #f6e05e;
+}
+
+.priority-badge.high {
+  background-color: #fc8181;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.share-platform-btn:hover {
+  opacity: 0.9;
+}
